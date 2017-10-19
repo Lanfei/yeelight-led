@@ -1,0 +1,28 @@
+{
+  "name": "yeelight-led",
+  "version": "1.0.0",
+  "description": "A lightweight SDK to control Yeelight smart LED devices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "jsdoc2md index.js > docs/API.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lanfei/yeelight-led.git"
+  },
+  "keywords": [
+    "yeelight",
+    "smarthome",
+    "ssdp"
+  ],
+  "author": "Lanfei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lanfei/yeelight-led/issues"
+  },
+  "homepage": "https://github.com/Lanfei/yeelight-led#readme",
+  "devDependencies": {
+    "jsdoc-to-markdown": "^3.0.0"
+  }
+}
