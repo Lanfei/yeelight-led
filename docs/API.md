@@ -12,6 +12,7 @@
         * [.stopDiscovering()](#Yeelight.stopDiscovering)
         * [.addDevice(device)](#Yeelight.addDevice) ⇒ <code>Boolean</code>
         * [.removeDevice(device)](#Yeelight.removeDevice) ⇒ <code>Boolean</code>
+        * [.removeAllDevices()](#Yeelight.removeAllDevices)
         * [.getDevices()](#Yeelight.getDevices) ⇒ [<code>Array.&lt;Yeelight&gt;</code>](#Yeelight)
         * [.getDeviceById(id)](#Yeelight.getDeviceById) ⇒ [<code>Yeelight</code>](#Yeelight)
 
@@ -84,6 +85,12 @@ Remove a Yeelight device.
 | --- | --- |
 | device | [<code>Yeelight</code>](#Yeelight) | 
 
+<a name="Yeelight.removeAllDevices"></a>
+
+### Yeelight.removeAllDevices()
+Remove all Yeelight devices.
+
+**Kind**: static method of [<code>Yeelight</code>](#Yeelight)  
 <a name="Yeelight.getDevices"></a>
 
 ### Yeelight.getDevices() ⇒ [<code>Array.&lt;Yeelight&gt;</code>](#Yeelight)

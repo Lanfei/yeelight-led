@@ -163,6 +163,13 @@ Yeelight.removeDevice = function (device) {
 };
 
 /**
+ * Remove all Yeelight devices.
+ */
+Yeelight.removeAllDevices = function () {
+	Yeelight._devices = [];
+};
+
+/**
  * Get all Yeelight devices.
  * @return {Yeelight[]} Yeelight devices
  */
