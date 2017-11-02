@@ -78,7 +78,7 @@ Yeelight.prototype.sendCommand = function (method, params, callback) {
 /**
  * Discover Yeelight LED devices by SSDP(Simple Service Discovery Protocol).
  * @see https://tools.ietf.org/html/draft-cai-ssdp-v1-03
- * @param {Function} callback
+ * @param {Function} [callback]
  */
 Yeelight.discover = function (callback) {
 	var port = 1982;
@@ -100,7 +100,7 @@ Yeelight.discover = function (callback) {
 				urlObj['hostname'],
 				methods ? methods.trim().split(' ') : []
 			);
-			if (Yeelight.addDevice(yeeLight)) {
+			if (Yeelight.addDevice(yeeLight) && callback) {
 				callback(yeeLight);
 			}
 		}

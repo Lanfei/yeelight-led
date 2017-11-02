@@ -8,7 +8,7 @@
     * _instance_
         * [.sendCommand(method, [params], [callback])](#Yeelight+sendCommand)
     * _static_
-        * [.discover(callback)](#Yeelight.discover)
+        * [.discover([callback])](#Yeelight.discover)
         * [.stopDiscovering()](#Yeelight.stopDiscovering)
         * [.addDevice(device)](#Yeelight.addDevice) ⇒ <code>Boolean</code>
         * [.removeDevice(device)](#Yeelight.removeDevice) ⇒ <code>Boolean</code>
@@ -45,7 +45,7 @@ Send command to Yeelight device.
 
 <a name="Yeelight.discover"></a>
 
-### Yeelight.discover(callback)
+### Yeelight.discover([callback])
 Discover Yeelight LED devices by SSDP(Simple Service Discovery Protocol).
 
 **Kind**: static method of [<code>Yeelight</code>](#Yeelight)  
@@ -53,7 +53,7 @@ Discover Yeelight LED devices by SSDP(Simple Service Discovery Protocol).
 
 | Param | Type |
 | --- | --- |
-| callback | <code>function</code> | 
+| [callback] | <code>function</code> | 
 
 <a name="Yeelight.stopDiscovering"></a>
 
